@@ -12,10 +12,7 @@ import retrofit2.http.GET;
 
 
 public interface DataClient {
-
     @GET("api/breeds/image/random")
     @Nullable
     Call<Dog> DogData();
-
-
 }
